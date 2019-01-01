@@ -1,5 +1,6 @@
 # Redirect default Netlify subdomain to primary domain
 http://kelsin-scoring.netlify.com/* http://scoring.kelsin.net/:splat 301!
+https://kelsin-scoring.netlify.com/* https://scoring.kelsin.net/:splat 301!
 
 # SPA setup
 /*    /index.html   200
