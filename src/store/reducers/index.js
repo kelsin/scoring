@@ -1,3 +1,11 @@
-import identity from 'ramda/es/identity';
+import { combineReducers } from 'redux';
 
-export default identity;
+import data from "./data";
+import game from "./game";
+import players from "./players";
+
+export default combineReducers({
+  data,
+  game,
+  players
+});
