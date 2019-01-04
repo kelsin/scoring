@@ -21,3 +21,16 @@ tr.type-sum th {
 th, td {
   text-align: right;
 }
+
+th input, td input {
+  width: 100%;
+  text-align: right;
+}
+
+th, td {
+  width: 50px;
+}
+
+th[colspan="2"], td[colspan=2] {
+  width: 100px;
+}
